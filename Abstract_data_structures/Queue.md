@@ -24,19 +24,19 @@ class Queue():
             return 'True'
 
     def __repr__(self):
-        lines = '-----'
-        list = '|'
+        lines_length = 0
+        list = ''
         for n in self.queue:
             if n == self.queue[-1]:
                 list += str(n)
             else:
                 list += str(n) + ' | '
-            for i in range(len(str(n))):
-                lines += '-'
-        print(lines)
-        list += '|'
-        print(list)
-        print(lines)
+            lines_length += len(str(n)) + 3
+        lines = '-' * (lines_length+1)
+        if not self.queue:
+            return 'None'
+        else:
+            return f"{lines} \n| {list} |\n{lines}"
 
 
 '''Interface'''
@@ -57,3 +57,4 @@ print(test1)
 
 ### Test
 
+<img width="872" alt="Screen Shot 2022-10-18 at 12 05 43 PM" src="https://user-images.githubusercontent.com/89366878/196333055-9a7bb0cc-8b68-428d-b073-ef50a4ec4bce.png">
