@@ -3,12 +3,21 @@
 ### Python Code
 
 ```.py
-number = int(input())
-water = input()
-spaces = ""
-for i in range(number):
-    print(spaces + water)
-    spaces += " "
+class Cascade():
+    def __init__(self, number, water):
+        self.number = number
+        self.water = water
+        self.spaces = ''
+
+    def print(self):
+        for i in range(self.number):
+            print(self.spaces + self.water)
+            self.spaces += " "
+        return ''
+
+
+test1 = Cascade(number=int(input()), water=input())
+print(test1.print())
 ```
 
 ### Test
