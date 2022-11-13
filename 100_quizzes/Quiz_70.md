@@ -21,3 +21,4 @@ truth_table("not B+C")
 
 ### Test
 
+<img width="656" alt="Screen Shot 2022-11-14 at 12 26 31 AM" src="https://user-images.githubusercontent.com/89366878/201529783-2f8a25df-caec-4e2a-a262-f2b3e27873bc.png">
