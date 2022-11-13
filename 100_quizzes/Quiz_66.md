@@ -25,3 +25,5 @@ test4.printSquare()
 
 ### Test
 
+<img width="658" alt="Screen Shot 2022-11-13 at 11 51 48 PM" src="https://user-images.githubusercontent.com/89366878/201528098-48925a99-54df-4249-9315-4b3c080a8ce1.png">
+<img width="270" alt="Screen Shot 2022-11-13 at 11 51 59 PM" src="https://user-images.githubusercontent.com/89366878/201528102-bd805dd9-57d5-4ae9-a605-61b414ee0d76.png">
