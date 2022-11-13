@@ -1,0 +1,20 @@
+# Quiz 72
+
+### Python Code
+```.py
+class XORbit:
+    def __init__(self, a:hex, b:hex):
+        self.a = a
+        self.b = b
+
+    def compute(self):
+        xor = self.a ^ self.b  # bitwise xor operation between a and b
+        return hex(xor)[2:]  # return result in hexadecimal without prefix 0x
+
+
+test1 = XORbit(a=0x3b101c091d53320c000910, b=0x071d154502010a04000419)
+print(test1.compute())
+```
+
+### Test
+
