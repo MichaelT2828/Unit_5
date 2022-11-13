@@ -91,7 +91,7 @@ print(f"Original: {scores}, Output: {sort_queue2stack(scores)}")
 
 ### Test
 
-
+<img width="662" alt="Screen Shot 2022-11-13 at 11 45 18 PM" src="https://user-images.githubusercontent.com/89366878/201527949-272016e1-503d-433f-8db4-e6d8589b48ed.png">
 
 ### Flow diagram
 
