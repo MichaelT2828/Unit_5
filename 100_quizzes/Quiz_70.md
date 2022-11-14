@@ -2,7 +2,7 @@
 
 ### Python Code
 ```.py
-def truth_table(equation):
+def truth_table():
     print("|A|B|C|AB+(not B)+(not BC)|")  # print the column headers
     for i in range(8):  # repeat for the 8 rows that represent the combinations of three variables
         binary = bin(i)[2:]  # take the row number in binary
@@ -16,7 +16,7 @@ def truth_table(equation):
         print("|")
 
 
-truth_table("not B+C")
+truth_table()
 ```
 
 ### Test
